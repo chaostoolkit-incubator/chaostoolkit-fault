@@ -1,4 +1,4 @@
-# Chaos Toolkit Extension Template
+# Chaos Toolkit Extension For The Fault Proxy
 
 [![Version](https://img.shields.io/pypi/v/chaostoolkit-fault.svg)](https://img.shields.io/pypi/v/chaostoolkit-fault.svg)
 [![License](https://img.shields.io/pypi/l/chaostoolkit-fault.svg)](https://img.shields.io/pypi/l/chaostoolkit-fault.svg)
