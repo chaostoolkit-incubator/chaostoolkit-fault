@@ -21,6 +21,9 @@ environment where [chaostoolkit][] already lives.
 pip install chaostoolkit-fault
 ```
 
+Make sure to install the [fault cli](https://fault-project.com/how-to/install/)
+and make it available in your `PATH`.
+
 ## Usage
 
 ```json
