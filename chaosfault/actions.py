@@ -113,7 +113,7 @@ def run_proxy(
 
             code = p.returncode
 
-            if code != 0:
+            if code not in (0, None):
                 logger.error(
                     f"Failed to launch fault proxy {code}: "
                     f"STDOUT: {decode_bytes(stdout)}"
@@ -192,7 +192,7 @@ def run_demo(
         finally:
             code = p.returncode
 
-            if code != 0:
+            if code not in (0, None):
                 logger.error(
                     f"Failed to launch fault demo {code}: "
                     f"STDOUT: {decode_bytes(stdout) or ''}"

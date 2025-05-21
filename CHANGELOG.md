@@ -2,7 +2,15 @@
 
 ## [Unreleased][]
 
-[Unreleased]: https://github.com/chaostoolkit-incubator/chaostoolkit-fault/compare/0.1.1...HEAD
+[Unreleased]: https://github.com/chaostoolkit-incubator/chaostoolkit-fault/compare/0.1.2...HEAD
+
+## [0.1.2][]
+
+[0.1.2]: https://github.com/chaostoolkit-incubator/chaostoolkit-fault/compare/0.1.1...0.1.2
+
+### Fixed
+
+- Treat returncode None as if it had been set to 0
 
 ## [0.1.1][]
 
@@ -10,7 +18,7 @@
 
 ### Added
 
-- Fix Pyp publishing
+- Fix Pypi publishing
 
 ## [0.1.0][]
 
